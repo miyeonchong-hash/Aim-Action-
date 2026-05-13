@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Aim & Action</title>
+    <!-- Gmarket Sans & Pretendard 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 상단 네비게이션: 정미연 님의 요청대로 로직 수정 -->
+        <nav class="top-nav">
+            <div class="nav-inner">
+                <!-- 로고는 추후 메인페이지(index.html)와 연결 -->
+                <a href="index.html" class="nav-logo">Aim & Action</a>
+                <div class="nav-links">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html" class="active">ABOUT</a> <!-- ABOUT 클릭 시 이 페이지로 연결 -->
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#" class="nav-btn">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 히어로 섹션: 2줄 구성 및 페르소나 박스 적용 -->
+        <header class="hero-section">
+            <div class="hero-inner">
+                <div class="logo-area">
+                    <img src="img/slingshot_logo.png" alt="Aim & Action Logo" class="shiny-logo">
+                </div>
+                
+                <div class="main-copy">
+                    <h1>
+                        "충분히 <span class="point-color">당겨 생각</span>하고,<br>
+                        정확한 지점으로 <span class="point-color nowrap">실행을 쏩니다</span>"
+                    </h1>
+                    <div class="hero-btns">
+                        <a href="#" class="btn-primary">View Portfolio</a>
+                        <a href="#" class="btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="character-area">
+                    <!-- 노트북 이탈 방지를 위해 캐릭터와 상자로 묶음 -->
+                    <div class="persona-box">
+                        <img src="img/my_character.png" alt="정미연 캐릭터" class="main-char">
+                        <img src="img/my_lab_laptop.png" alt="MY Lab 노트북" class="laptop-deco wiggle-laptop">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="inner">
+                <!-- 섹션 1: 로고 스토리 -->
+                <div class="about-me">
+                    <h2 class="logo"><span class="highlight">LOGO STORY: 전략적 긴장감이 만드는 명확한 결과</span></h2>
+                    <img src="img/logo_detail.png" alt="로고 상세 이미지">
+                    <p>
+                        저의 로고는 마케터로서의 두 가지 핵심 정체성인 'M(Mind/Insight)'과 'Y(Yield/Strategy)'의 결합을 형상화합니다.<br><br>
+                        <strong>Y :</strong> 로고의 중심축인 'Y'는 흔들리지 않는 논리적 전략과 데이터 기반의 단단한 중심을 의미합니다.<br>
+                        <strong>M :</strong> 상단의 'M'은 다각도에서 시장을 바라보는 유연한 통찰력을 상징하며, 새총의 고무줄처럼 팽팽한 사고의 긴장감을 유지합니다.<br>
+                        <strong>The Point :</strong> 중앙의 원형 포인트는 충분히 당겨진 생각이 전략을 통해 성과로 발사되는 지점을 상징합니다.
+                    </p>
+                    <img src="img/profileImage.png" alt="MIYEON JUNG" class="profile-round"> <!-- -->
+                </div>
+
+                <!-- 섹션 2: 직무 역량 -->
+                <div class="about-me">
+                    <h2 class="Strategy"><span class="highlight">STRATEGIC MIND: 유연한 연결자</span></h2>
+                    <p>
+                        디지털 마케팅 전공자로서 퍼포먼스 마케팅과 콘텐츠 전략을 공부하며 데이터 뒤의 본질을 읽는 법을 익혔습니다. 
+                        여기에 UI/UX 디자인 역량을 더해, 기획한 전략을 직접 눈에 보이는 화면으로 구현해냅니다. 
+                        이성과 감성, 기획과 제작 사이를 유연하게 연결하며 브랜드의 메시지가 사용자에게 가장 다정하게 닿을 수 있는 방법을 설계합니다.
+                    </p>
+                    <img src="img/marketing_work1.png" alt="마케팅 데이터 분석">
+                    <img src="img/marketing_work2.png" alt="UI/UX 디자인 작업물">
+                </div>
+
+                <!-- 섹션 3: 실행형 마케터 -->
+                <div class="about-me">
+                    <h2 class="Action"><span class="highlight">DIRECT ACTION: 다정한 시선, 차가운 실행</span></h2>
+                    <img src="img/action_illust.png" alt="실행형 마케터 이미지">
+                    <p>
+                        '다정한' 관찰로 타겟의 마음을 읽고, '생동감 있는' 에너지를 담아 콘텐츠를 만듭니다. 
+                        르무통 UX 디자인 프로젝트부터 CUNI 샴푸바 마케팅 기획까지, 저는 늘 현장에서 직접 부딪히며 성과를 조준해왔습니다. 
+                        생각에만 머물지 않고 결과로 증명하는 실행형 마케터로서, 브랜드 가치를 가장 정확한 지점까지 쏘아 올리겠습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
