@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Aim & Action</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 글로벌 헤더 (Home, About 완벽 동기화) -->
+        <header class="global-header">
+            <nav class="top-nav">
+                <div class="nav-inner">
+                    <a href="index.html" class="nav-logo">Aim & Action</a>
+                    <!-- 수정된 내비게이션 바 링크 구조 -->
+                    <div class="nav-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <!-- [수정] 독립 포트폴리오 아카이브 페이지로 정밀 유도 -->
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="resume.html" class="active">Resume</a>
+                        <a href="https://www.instagram.com/still.with.mi/" target="_blank" class="nav-btn">Contact Me</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- 1. HERO SECTION -->
+        <section class="resume-hero">
+            <div class="resume-hero-bg">
+                <div class="hero-bg-logo-deco"></div>
+                <div class="hero-teal-point-dot"></div>
+            </div>
+            <div class="inner resume-hero-grid">
+                <div class="hero-left-text">
+                    <span class="section-mini-tag">RESUME</span>
+                    <h2>콘텐츠 기획부터 제작,<br>SEO와 UX/UI 설계까지.</h2>
+                    <p>사용자의 행동과 브랜드의 목적을 함께 고려하며<br>더 나은 콘텐츠 경험을 설계합니다.</p>
+                </div>
+                <div class="hero-right-image">
+                    <!-- 프로필 이미지/일러스트 공간 -->
+                    <div class="profile-image-frame">
+                        <img src="img/profileImage.png" alt="정미연 프로필" onerror="this.style.display='none'">
+                        <div class="profile-avatar-fallback">✨📖</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 스크롤 유도 애니메이션 바 -->
+            <div class="scroll-down-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+        </section>
+
+        <!-- 2. QUICK PROFILE -->
+        <section class="resume-section-box">
+            <div class="inner">
+                <div class="quick-profile-grid">
+                    <div class="quick-card">
+                        <div class="quick-icon">🎓</div>
+                        <h4>Digital Marketing</h4>
+                        <p>디지털마케팅공학 전공</p>
+                    </div>
+                    <div class="quick-card">
+                        <div class="quick-icon">📈</div>
+                        <h4>Content Marketing</h4>
+                        <p>콘텐츠 기획 및 운영</p>
+                    </div>
+                    <div class="quick-card">
+                        <div class="quick-icon">🎬</div>
+                        <h4>Media Production</h4>
+                        <p>영상 및 비주얼 콘텐츠 제작</p>
+                    </div>
+                    <div class="quick-card">
+                        <div class="quick-icon">🎨</div>
+                        <h4>UX/UI</h4>
+                        <p>사용자 경험 기반 설계</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. FEATURED EXPERIENCE (MMG International 강조) -->
+        <section class="resume-section-box colored-bg-sub">
+            <div class="inner">
+                <h3 class="section-title">Featured Experience</h3>
+                <div class="featured-experience-card">
+                    <div class="featured-left">
+                        <div class="featured-meta">
+                            <h4>MMG International</h4>
+                            <span class="featured-badge-role">영업마케팅팀 인턴</span>
+                        </div>
+                        <span class="featured-date">2025.12 ~ 2026.02</span>
+                        <ul class="featured-bullets">
+                            <li>해외 시장 대상 한식 콘텐츠 브랜드 멀티 채널 콘텐츠 운영</li>
+                            <li>SEO 콘텐츠 작성 및 웹사이트 관리</li>
+                            <li>카드뉴스 및 인포그래픽 제작</li>
+                            <li>운영 매뉴얼 4종 제작</li>
+                        </ul>
+                        <div class="featured-tags-box">
+                            <span class="keyword-tag">SEO</span>
+                            <span class="keyword-tag">WordPress</span>
+                            <span class="keyword-tag">Content Marketing</span>
+                            <span class="keyword-tag">SNS</span>
+                            <span class="keyword-tag">Infographic</span>
+                        </div>
+                    </div>
+                    <div class="featured-right-icons">
+                        <div class="mini-visual-icon">📝</div>
+                        <div class="mini-visual-icon">📊</div>
+                        <div class="mini-visual-icon">🔍</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EXPERIENCE TIMELINE -->
+        <section class="resume-section-box">
+            <div class="inner">
+                <h3 class="section-title">Experience Timeline</h3>
+                <div class="vertical-timeline-track">
+                    
+                    <!-- 2025 Block -->
+                    <div class="timeline-year-group">
+                        <div class="timeline-year-badge">2025</div>
+                        
+                        <!-- [연결 보완] 클릭 시 포트폴리오 아카이브 해당 파트로 안전 텔레포트 -->
+                        <a href="portfolio.html" class="timeline-card-link">
+                            <div class="timeline-node-dot"></div>
+                            <div class="timeline-content-card">
+                                <h4>CUNI</h4>
+                                <p>신제품 마케팅 전략 기획</p>
+                                <span class="click-hint-text">Portfolio 보기 →</span>
+                            </div>
+                        </a>
+
+                        <a href="portfolio.html" class="timeline-card-link">
+                            <div class="timeline-node-dot"></div>
+                            <div class="timeline-content-card">
+                                <h4>개인 블로그 협찬 콘텐츠 제작</h4>
+                                <p>브랜드 협찬 콘텐츠 기획 및 제작 / 제품 리뷰 및 정보성 포스팅 작성</p>
+                                <span class="click-hint-text">Portfolio 보기 →</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 2026 Block -->
+                    <div class="timeline-year-group">
+                        <div class="timeline-year-badge">2026</div>
+
+                        <a href="portfolio.html" class="timeline-card-link">
+                            <div class="timeline-node-dot"></div>
+                            <div class="timeline-content-card">
+                                <h4>MMG International</h4>
+                                <p>영업마케팅팀 인턴 / 글로벌 푸드 브랜드 멀티 채널 콘텐츠 운영</p>
+                                <span class="click-hint-text">Portfolio 보기 →</span>
+                            </div>
+                        </a>
+
+                        <a href="portfolio.html" class="timeline-card-link">
+                            <div class="timeline-node-dot"></div>
+                            <div class="timeline-content-card">
+                                <h4>법률사무소 A&P</h4>
+                                <p>콘텐츠 마케팅 전략 기획</p>
+                                <span class="click-hint-text">Portfolio 보기 →</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROJECTS (2x2 Grid) -->
+        <section class="resume-section-box colored-bg-sub">
+            <div class="inner">
+                <h3 class="section-title">Projects</h3>
+                <div class="projects-2x2-grid">
+                    
+                    <!-- [연결 보완] div 전체를 에디토리얼 아카이브 페이지 연결 링크형으로 전면 고도화 -->
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>UX/UI 심화 프로젝트</h4>
+                            <p>모바일 앱 서비스 기획 및 UX/UI 설계</p>
+                            <div class="project-tools-used"><span>Figma</span></div>
+                        </div>
+                    </a>
+                    
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>르무통</h4>
+                            <p>모바일 랜딩 앱 UX/UI 설계 및 프로토타입 제작</p>
+                            <div class="project-tools-used"><span>Figma</span></div>
+                        </div>
+                    </a>
+                    
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>부천그랜드치과</h4>
+                            <p>웹사이트 히어로 이미지 개선 제안</p>
+                            <div class="project-tools-used"><span>Photoshop</span></div>
+                        </div>
+                    </a>
+                    
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>뉴욕치과</h4>
+                            <p>웹사이트 정보 구조 분석 및 개선 제안</p>
+                            <div class="project-tools-used"><span>Canva</span></div>
+                        </div>
+                    </a>
+
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>CUNI</h4>
+                            <p>신제품 마케팅 전략 기획</p>
+                            <div class="project-tools-used"><span>Canva</span></div>
+                        </div>
+                    </a>
+
+                    <a href="portfolio.html" class="project-grid-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="project-grid-card">
+                            <h4>법률사무소 A&P</h4>
+                            <p>콘텐츠 마케팅 전략 기획</p>
+                            <div class="project-tools-used"><span>Canva</span></div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTENT PRODUCTION -->
+        <section class="resume-section-box">
+            <div class="inner">
+                <h3 class="section-title">Content Production</h3>
+                <!-- [수정 보완] 빈 껍데기 이모지 박스를 실감 나는 고화질 포트폴리오 아카이브 연동 구조로 튜닝 -->
+                <div class="content-production-grid">
+                    
+                    <a href="portfolio.html" class="production-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="production-card">
+                            <div class="production-thumb-placeholder" style="background-image: url('img/portfolio_police.png'); background-size: cover; background-position: center; position: relative;">
+                                <!-- 시선이 바로 꽂히는 트렌디 미니 비디오 플레이 레이어 마감 -->
+                                <div class="video-overlay-icon" style="background: rgba(45, 52, 54, 0.4); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.5rem;">▶</div>
+                            </div>
+                            <h5>인천서부경찰서</h5>
+                        </div>
+                    </a>
+                    
+                    <a href="portfolio.html" class="production-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="production-card">
+                            <div class="production-thumb-placeholder" style="background-image: url('img/portfolio_yigam.jpg'); background-size: cover; background-position: center; position: relative;">
+                                <div class="video-overlay-icon" style="background: rgba(45, 52, 54, 0.4); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.5rem;">▶</div>
+                            </div>
+                            <h5>이감국어</h5>
+                        </div>
+                    </a>
+                    
+                    <a href="portfolio.html" class="production-card-link" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="production-card">
+                            <div class="production-thumb-placeholder" style="background-image: url('img/portfolio_reels.png'); background-size: cover; background-position: center; position: relative;">
+                                <div class="video-overlay-icon" style="background: rgba(45, 52, 54, 0.4); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 1.5rem;">▶</div>
+                            </div>
+                            <h5>CUNI</h5>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. AWARDS & ACTIVITIES -->
+        <section class="resume-section-box colored-bg-sub">
+            <div class="inner">
+                <h3 class="section-title">Awards & Activities</h3>
+                <div class="horizontal-awards-flex">
+                    <div class="award-flex-item">
+                        <div class="award-emoji">🏆</div>
+                        <h5>인하공업전문대학 교육성과 전시회 금상</h5>
+                        <span>(2025.06)</span>
+                    </div>
+                    <div class="award-flex-item">
+                        <div class="award-emoji">👨‍🏫</div>
+                        <h5>인하공전 AID 30+ 집중캠프 생성형 AI 마케팅 과정 TA</h5>
+                        <span>(2025.09 ~ 2025.12)</span>
+                    </div>
+                    <div class="award-flex-item">
+                        <div class="award-emoji">🎓</div>
+                        <h5>청년 콘텐츠 우수인재 양성 교육 1기 수료</h5>
+                        <p>(3D 모션그래픽 및 AI 마케팅 활용)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SKILLS -->
+        <section class="resume-section-box">
+            <div class="inner">
+                <h3 class="section-title">Skills</h3>
+                <div class="skills-tag-board-grid">
+                    <div class="skill-tag-group">
+                        <h5>Content Marketing</h5>
+                        <div class="tag-cloud">
+                            <span>콘텐츠 기획 및 제작</span><span>블로그 운영</span><span>SNS 콘텐츠 제작</span><span>숏폼 · 롱폼 영상 기획</span>
+                        </div>
+                    </div>
+                    <div class="skill-tag-group">
+                        <h5>SEO & Analytics</h5>
+                        <div class="tag-cloud">
+                            <span>Google Search Console</span><span>SEO 최적화</span><span>GA4 (학습 중)</span><span>GTM (학습 중)</span>
+                        </div>
+                    </div>
+                    <div class="skill-tag-group">
+                        <h5>Design</h5>
+                        <div class="tag-cloud">
+                            <span>Photoshop</span><span>Illustrator</span><span>Canva</span><span>Premiere Pro</span><span>After Effects</span>
+                        </div>
+                    </div>
+                    <div class="skill-tag-group">
+                        <h5>UX/UI</h5>
+                        <div class="tag-cloud">
+                            <span>Figma</span><span>IA 설계</span><span>와이어프레임</span><span>프로토타입 제작</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. CHANNELS -->
+        <section class="resume-section-box channels-footer-gate">
+            <div class="inner">
+                <h4 class="connect-call-text">Let's Connect</h4>
+                <div class="channels-grid-gate">
+                    <a href="https://blog.naver.com/my_lablog" target="_blank" class="gate-card-item">
+                        <div class="gate-icon">📝</div>
+                        <div class="gate-meta">
+                            <strong>Blog</strong>
+                            <span>blog.naver.com/my_lablog</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/still.with.mi/" target="_blank" class="gate-card-item">
+                        <div class="gate-icon">📸</div>
+                        <div class="gate-meta">
+                            <strong>Instagram</strong>
+                            <span>@still.with.mi</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 글로벌 푸터 -->
+        <footer class="global-footer" id="footer">
+            <div class="footer-inner">
+                <div class="footer-info">
+                    <p class="copyright">&copy; 2026 JUNG MI YEON. All Rights Reserved.</p>
+                    <p class="email-text">이메일: miyeonchong@naver.com</p>
+                    <p class="email-text" style="margin-top: 4px; color: #95a5a6;">SMS: @still.with.mi</p>
+                </div>
+                <div class="footer-sns">
+                    <a href="https://blog.naver.com/my_lablog" target="_blank" class="blog-link">Blog: blog.naver.com/my_lablog</a>
+                    <a href="https://www.instagram.com/still.with.mi/" target="_blank" class="instagram-link">Instagram →</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
